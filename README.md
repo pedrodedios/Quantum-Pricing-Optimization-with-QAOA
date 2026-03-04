@@ -1,6 +1,3 @@
-# Quantum-Pricing-Optimization-with-QAOA
-A Qiskit-based benchmarking suite for combinatorial pricing problems
-
 
 # Quantum Pricing Optimization with QAOA
 
