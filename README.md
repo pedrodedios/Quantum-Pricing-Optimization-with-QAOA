@@ -3,7 +3,7 @@
 
  **Applying quantum computing to a real industrial problem — optimizing product pricing using a variational quantum algorithm, benchmarked rigorously against classical solvers.**
 
----
+
 
 ## What this project does
 
