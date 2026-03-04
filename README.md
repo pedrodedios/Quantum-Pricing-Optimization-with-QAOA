@@ -41,7 +41,10 @@ The quantum result is compared against an exact solver (brute force) and a class
 
 The quantum optimizer is tracked in real time across all iterations:
 
-![Convergence Dashboard](qaoa_convergence.png)
+<p align="center">
+  <img src="qaoa_convergence.png" width="450">
+</p>
+
 
 - **Energy convergence** — does the optimizer improve over time?
 - **Best solution found** — does the circuit ever sample the optimal answer?
