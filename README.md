@@ -42,7 +42,7 @@ The quantum result is compared against an exact solver (brute force) and a class
 The quantum optimizer is tracked in real time across all iterations:
 
 <p align="center">
-  <img src="qaoa_convergence.png" width="450">
+  <img src="qaoa_convergence.png" width="540">
 </p>
 
 
