@@ -17,20 +17,20 @@ The same problem is also solved using two classical methods, so the quantum appr
 
 Pricing optimization is hard. With many products, each having multiple possible price levels, and demand for each product depending on the others, the number of possible combinations grows exponentially. This makes it a natural candidate for quantum optimization methods.
 
-This is also directly relevant to emerging industrial quantum computing research — including approaches like **Decoded Quantum Interferometry (DQI)**, which targets exactly this class of combinatorial problem.
+This is also directly relevant to emerging industrial quantum computing research, including approaches like **Decoded Quantum Interferometry (DQI)**, which targets exactly this class of combinatorial problem.
 
 ---
 
 ## How it works 
 
 **Step 1 — Encode the problem**
-The pricing problem is translated into a mathematical format called a **QUBO** (Quadratic Unconstrained Binary Optimization) — a standard input format for quantum optimization hardware.
+The pricing problem is translated into a mathematical format called a **QUBO** (Quadratic Unconstrained Binary Optimization), a standard input format for quantum optimization hardware.
 
 **Step 2 — Translate to quantum**
-The QUBO is converted into a **quantum Hamiltonian** — an operator whose lowest-energy state corresponds to the optimal price assignment.
+The QUBO is converted into a **quantum Hamiltonian**, an operator whose lowest-energy state corresponds to the optimal price assignment.
 
 **Step 3 — Run the quantum algorithm (QAOA)**
-A quantum circuit is run repeatedly, each time measuring a candidate solution. A classical optimizer tunes the circuit's parameters to make good solutions appear more frequently — like tuning an antenna to pick up the right signal.
+A quantum circuit is run repeatedly, each time measuring a candidate solution. A classical optimizer tunes the circuit's parameters to make good solutions appear more frequently, like tuning an antenna to pick up the right signal.
 
 **Step 4 — Benchmark**
 The quantum result is compared against an exact solver (brute force) and a classical heuristic (simulated annealing) on revenue quality, approximation ratio, and runtime.
