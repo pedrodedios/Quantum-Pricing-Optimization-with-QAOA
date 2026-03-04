@@ -7,7 +7,7 @@
 
 ## What this project does
 
-This project models a simplified **automotive pricing problem** — assigning the best price to each product to maximize revenue — and solves it using a **quantum algorithm running on a simulated quantum computer**.
+This project models a simplified **automotive pricing problem** by assigning the best price to each product to maximize revenue and solves it using a **quantum algorithm running on a simulated quantum computer**.
 
 The same problem is also solved using two classical methods, so the quantum approach can be directly compared on solution quality, accuracy, and runtime.
 
